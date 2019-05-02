@@ -1,0 +1,40 @@
+<html>
+
+<link rel="stylesheet" href="/modul_1.e31bb0bc.css"><body>
+    <div class="container">
+        <div class="card-body">
+            <h1>TensorFlow.js With Lab AI</h1>
+        </div>
+        <hr>
+        <div class="card-body">
+            <h4>Scatter Plot Data (Chart.js)</h4> <canvas id="scatter-chartjs" height="400" width="500"> </canvas>
+        </div>
+        <hr>
+        <!-- Training Process -->
+        <div class="card-body">
+                <div class="form-group">
+                    <h3>Train Model</h3>        
+                    <button type="button" class="btn btn-primary" id="init-btn">Initialize Model</button>
+                    <button type="button" class="btn btn-primary" id="train-btn" disabled="">Train Model</button>
+                </div>
+                <h4><span id="is-training" class="badge"></span></h4>
+            </div><hr>
+            <!-- Testing Process --> 
+            <div class="card-body" id="predict" style="display:none;">  
+                <h3>Test Result</h3>
+                <div class="col-5 form-group">                          
+                    <label>Input Value:</label> 
+                    <input type="text" id="inputValue" class="form-control">
+                </div>      
+                <div class="col-5 form-group">
+                    <button type="button" class="btn btn-primary" id="predict-btn">Predict</button>               
+                </div>
+                <h4>Result: <span class="badge badge-success" id="output"></span></h4>
+            </div>
+    
+        <div id="output"></div>
+    </div>
+    <script src="/modul_1.e31bb0bc.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,4 @@
 # TensorflowJS
-A Tensorflow Js Workshop with Artificial Intellignece Laboratory Telkom University
 
 For `npm` installation, see at the modul
 
